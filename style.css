@@ -5,6 +5,7 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
+    background-repeat: repeat;
   }
   
   h1 {
@@ -60,7 +61,7 @@ body {
     position: absolute;
     
    width: max-content;
-   min-width: 63vh;
+  
    
    height: auto;
    background-color: rgba(226, 226, 202, 0.541);
