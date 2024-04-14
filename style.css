@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(./art.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  
+  h1 {
+    color: #4CAF50;
+  }
+  h2 {
+    color: white;
+
+  }
+  table tr th {
+    color: rgb(194, 36, 36);
+
+  }
+  input {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+ 
+  
+  input.desc{
+    height: 20rem;
+  }
+.con{
+  display: grid;
+  place-items: center;
+  height: 100vh; /* Prend 100% de la hauteur de la fenêtre */
+}
+
+  .container{
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+    width: max-content;
+    height: auto;
+   background-color: rgba(226, 226, 202, 0.205);
+    
+    
+  }
+ 
+  div#listeArticles{
+    margin-top: 5vh;
+    position: absolute;
+    
+   width: max-content;
+   min-width: 63vh;
+   
+   height: auto;
+   background-color: rgba(226, 226, 202, 0.541);
+   border: 1px solid black;
+   
+  }
