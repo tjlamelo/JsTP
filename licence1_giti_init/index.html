@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajouter des éléments à une liste</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  
+
+    <div class="con">
+      <div class="container">
+        <h2>Bonjour!</h2>
+
+        <table>
+          <tr>
+            <th>Titre</th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="titreInput"
+                placeholder="Entrez le titre"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>
+              <textarea
+                id="descriptionInput"
+                rows="4"
+                cols="50"
+                placeholder="Entrez la description"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button onclick="ajouterElement()">Enregistrer</button>
+            </td>
+          </tr>
+        </table>
+        <div id="listeArticles" class="article">
+            <h4>Article List</h4>
+            <p id="listeVideMessage" style="display: none">La liste est vide.</p>
+          </div>
+      </div>
+    
+    </div>
+
+    <!-- Zone d'affichage de la liste -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
